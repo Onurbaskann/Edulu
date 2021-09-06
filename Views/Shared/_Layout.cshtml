@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/Header.css" rel="stylesheet" />
+    <link href="~/Content/Slider.css" rel="stylesheet" />
+    <link href="~/Content/Custom.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        @Html.Partial("_Header")
+        <div>
+            @RenderBody()
+        </div>
+        @Html.Partial("_Footer")
+    </div>
+    <script src="~/Scripts/bootstrap.bundle.min.js"></script>
+    <script src="~/Scripts/jquery-3.6.0.slim.min.js"></script>
+    <script src="~/Scripts/Header.js"></script>
+</body>
+</html>

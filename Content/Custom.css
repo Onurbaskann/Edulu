@@ -1,0 +1,61 @@
+﻿/*Slider*/
+body #hdiv {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #fff;
+}
+#hdiv {
+    z-index: -1;
+    background-image: url('../Image/masallarin_algoritmasi.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height:909px;
+}
+    #hdiv img {
+        padding: 0;
+        max-height: 100%;
+        min-width: 100%;
+    }
+/*Video*/
+#videoGenel {
+    height: 280px;
+}
+.videoDiv{
+    display:inline-block;
+    float:left;
+    width:33%;
+}
+/*Story*/
+#story ul{
+    background: #f4f3f3;
+    height: 250px;
+}
+.story-kisim {
+    display: inline-block;
+    float: left;
+    padding:20px;
+    width:25%;
+    height:100%;
+}
+    .story-kisim img {
+        padding: 0;
+        width: 100%;
+        height:100%;
+        object-fit:cover;
+        border-radius:10px;
+    }
+    .story-kisim a:hover {
+        opacity:0.3;
+    }
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}

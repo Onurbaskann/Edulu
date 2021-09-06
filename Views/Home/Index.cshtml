@@ -1,0 +1,114 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div>
+        <div id="hdiv">
+            <!--Slider-->
+            <div class="card sliderall my-3 overflow-hidden">
+                <input type="radio" name="select" id="slide_1" checked>
+                <input type="radio" name="select" id="slide_2">
+                <input type="radio" name="select" id="slide_3">
+                <input type="checkbox" id="slideImg">
+
+                <div class="slider">
+                    <label for="slide_1" class="slide slide_1"></label>
+                    <label for="slide_2" class="slide slide_2"></label>
+                    <label for="slide_3" class="slide slide_3"></label>
+                </div>
+
+                <div class="inner_part over">
+                   <!--<label for="slideImg" class="img">
+                        <img class="img_1" src="https://c4.wallpaperflare.com/wallpaper/978/131/617/kiz-kulesi-turkey-istanbul-maiden-s-tower-wallpaper-preview.jpg">
+                    </label>-->
+                    <div class="content content_1">
+                        <div class="title">İstanbul</div>
+                        <div class="text">
+                            Istanbul, a fascinating city built on two Continents, divided by the Bosphorus Strait. This is one of the greatest cities in the world.
+                        </div>
+                        <button>Read More</button>
+                    </div>
+                </div>
+
+                <div class="inner_part">
+                    <!--<label for="slideImg" class="img">
+                        <img class="img_2" src="https://c4.wallpaperflare.com/wallpaper/649/96/56/ankara-cityscape-night-night-sky-wallpaper-preview.jpg">
+                    </label>-->                    
+                    <div class="content content_2">
+                        <div class="title">Ankara</div>
+                        <div class="text">
+                            Ankara is Turkey's beating heart, second largest city, located in the Central Anatolia region and home to the Grand National Assembly of Turkey.
+                        </div>
+                        <button>Read More</button>
+                    </div>
+                </div>
+
+                <div class="inner_part">
+                    <!--<label for="slideImg" class="img">
+                        <img class="img_3" src="https://c4.wallpaperflare.com/wallpaper/620/34/558/turkey-izmir-mountains-wallpaper-preview.jpg">
+                    </label>-->
+                    <div class="content content_3">
+                        <div class="title">İzmir</div>
+                        <div class="text">
+                            Located on the shores of the Aegean Sea, west of the Anatolian Peninsula, İzmir is the third-largest city in Turkey.
+                        </div>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+            <!--Slider Ends-->
+        </div>
+        <hr />
+        <!--Videolar-->      
+        <div id="videoGenel">
+            <ul>
+                <li class="videoDiv">
+                    <video width="100%" style="padding:10px;" controls="controls">
+                        <source src="~/Videos/Okul%20%c3%b6ncesi%20%c3%a7ocuklar%20i%c3%a7in%20e%c4%9fitici%20videolar.%20Bebek%20oyunlar%c4%b1_720P%20HD.mp4" type="video/mp4" />
+                    </video>
+                </li>
+                <li class="videoDiv">
+                    <video width="100%" style="padding:10px;" controls="controls">
+                        <source src="~/Videos/12%20Saat%20%c3%87%c3%bcr%c3%bck%20Ali%20ve%20Mikrop%20Necati%20Grafi2000_720P%20HD.mp4" type="video/mp4" />
+                    </video>
+                </li>
+                <li class="videoDiv">
+                    <video width="100%" style="padding:10px;" controls="controls">
+                        <source src="~/Videos/%c3%87%c3%bcr%c3%bck%20Ali%20ve%20Mikrop%20Necati%20-%20Ne%c5%9feli%20Ol%20Ki_720P%20HD.mp4" type="video/mp4" />
+                    </video>
+                </li>
+            </ul>
+        </div>
+        <!--Videolar End-->     
+        <hr />
+        <!--Stories-->        
+        <div id="story">
+            <ul>
+                <li class="story-kisim">
+                    <a href="#">
+                        <img src="~/Image/istavritin_oykusu.jpg" />
+                    </a>
+                </li>
+                <li class="story-kisim">
+                    <a href="#">
+                        <img src="~/Image/yalanci_hikaye.jpg" />
+                    </a>
+                </li>
+                <li class="story-kisim">
+                    <a href="#">
+                        <img src="~/Image/uc-zipzip-masali.jpg" />
+                    </a>
+                </li>
+                <li class="story-kisim">
+                    <a href="#">
+                        <img src="~/Image/tahta_canak.jpg" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--Stories End-->
+        <hr />
+        <div style=" height:500px;">.</div>
+    </div>
