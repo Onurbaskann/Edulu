@@ -1,4 +1,13 @@
-﻿/*Slider*/
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+}
+/*Slider*/
 body #hdiv {
     font-family: 'Bebas Neue', cursive;
     background-color: #fff;

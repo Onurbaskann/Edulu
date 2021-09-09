@@ -126,8 +126,8 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Custom.css" />
     <Content Include="Content\font-awesome.min.css" />
-    <Content Include="Content\Game.css" />
     <Content Include="Content\Header.css" />
+    <Content Include="Content\memory-game.css" />
     <Content Include="Image\istavritin_oykusu.jpg" />
     <Content Include="Image\masallarin_algoritmasi.jpg" />
     <Content Include="Content\Slider.css" />
@@ -142,7 +142,6 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
-    <Content Include="Scripts\Game.js" />
     <Content Include="Scripts\Header.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
     <Content Include="Scripts\jquery-3.6.0.min.js" />
@@ -153,6 +152,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\memory-game.js" />
     <Content Include="Videos\12 Saat Çürük Ali ve Mikrop Necati Grafi2000_720P HD.mp4" />
     <Content Include="Videos\Okul öncesi çocuklar için eğitici videolar. Bebek oyunları_720P HD.mp4" />
     <Content Include="Videos\Çürük Ali ve Mikrop Necati - Neşeli Ol Ki_720P HD.mp4" />
