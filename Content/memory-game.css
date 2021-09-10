@@ -1,4 +1,24 @@
-﻿#memory-game {
+﻿#gdiv {
+    z-index: -1;
+    background-image: url('../Image/05-the-best-video-games-of-2019-gq-december-120519.jpg');
+    background-size:contain;
+    background-position: center;
+    display: flex;
+    height: 400px;
+}
+
+    #gdiv img {
+        padding: 0;
+        max-height: 100%;
+        min-width: 100%;
+    }
+#game-container {
+    width: 540px;
+    height: 540px;
+    position: relative;
+    padding:20px;
+}
+#memory-game {
     width: 500px;
     height: 500px;
     background-color: rgb(253, 253, 250);
@@ -56,6 +76,7 @@
 #newgame-btn {
     position: relative;
     position: absolute;
+    top:250px;
     left: 610px;
     display: inline-block;
     cursor: pointer;

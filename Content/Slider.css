@@ -145,7 +145,6 @@
     cursor: pointer;
 }
 
-
     .slider .slide:before {
         position: absolute;
         content: '';
@@ -153,8 +152,7 @@
         left: 0;
         height: 100%;
         width: -100%;
-        background: rgba(0, 0, 0, 0.3);
-        ;
+        background: rgba(0, 0, 0, 0.3);        
         border-radius: 10px;
         transform: scaleX(0);
         transition: transform .6s;
