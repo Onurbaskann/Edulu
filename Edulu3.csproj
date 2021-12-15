@@ -167,6 +167,53 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112131147320_Create_UsersTable.cs" />
+    <Compile Include="Migrations\202112131147320_Create_UsersTable.designer.cs">
+      <DependentUpon>202112131147320_Create_UsersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112131156534_Create_StoriesTable.cs" />
+    <Compile Include="Migrations\202112131156534_Create_StoriesTable.designer.cs">
+      <DependentUpon>202112131156534_Create_StoriesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112140944061_Create_LearnersTable.cs" />
+    <Compile Include="Migrations\202112140944061_Create_LearnersTable.designer.cs">
+      <DependentUpon>202112140944061_Create_LearnersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112140945441_Delete_NameColumnAndLastNameColumnToUsersTable.cs" />
+    <Compile Include="Migrations\202112140945441_Delete_NameColumnAndLastNameColumnToUsersTable.designer.cs">
+      <DependentUpon>202112140945441_Delete_NameColumnAndLastNameColumnToUsersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112140949023_Create_InstructorsTable.cs" />
+    <Compile Include="Migrations\202112140949023_Create_InstructorsTable.designer.cs">
+      <DependentUpon>202112140949023_Create_InstructorsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112141019309_Delete_Learner_LearnerIdColumnToUsersTable.cs" />
+    <Compile Include="Migrations\202112141019309_Delete_Learner_LearnerIdColumnToUsersTable.designer.cs">
+      <DependentUpon>202112141019309_Delete_Learner_LearnerIdColumnToUsersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112141024445_Add_LearnerColumnToUsersTable.cs" />
+    <Compile Include="Migrations\202112141024445_Add_LearnerColumnToUsersTable.designer.cs">
+      <DependentUpon>202112141024445_Add_LearnerColumnToUsersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112141146388_Add_InstructorColumnToUsersTable.cs" />
+    <Compile Include="Migrations\202112141146388_Add_InstructorColumnToUsersTable.designer.cs">
+      <DependentUpon>202112141146388_Add_InstructorColumnToUsersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112141149385_Add_RegisterDateColumnToUsersTable.cs" />
+    <Compile Include="Migrations\202112141149385_Add_RegisterDateColumnToUsersTable.designer.cs">
+      <DependentUpon>202112141149385_Add_RegisterDateColumnToUsersTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202112141210222_Create_TraviasTable.cs" />
+    <Compile Include="Migrations\202112141210222_Create_TraviasTable.designer.cs">
+      <DependentUpon>202112141210222_Create_TraviasTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Entity\EduluContext.cs" />
+    <Compile Include="Models\Entity\Instructor.cs" />
+    <Compile Include="Models\Entity\Learner.cs" />
+    <Compile Include="Models\Entity\Story.cs" />
+    <Compile Include="Models\Entity\Travia.cs" />
+    <Compile Include="Models\Entity\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -210,7 +257,38 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\Entity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202112131147320_Create_UsersTable.resx">
+      <DependentUpon>202112131147320_Create_UsersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112131156534_Create_StoriesTable.resx">
+      <DependentUpon>202112131156534_Create_StoriesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112140944061_Create_LearnersTable.resx">
+      <DependentUpon>202112140944061_Create_LearnersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112140945441_Delete_NameColumnAndLastNameColumnToUsersTable.resx">
+      <DependentUpon>202112140945441_Delete_NameColumnAndLastNameColumnToUsersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112140949023_Create_InstructorsTable.resx">
+      <DependentUpon>202112140949023_Create_InstructorsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112141019309_Delete_Learner_LearnerIdColumnToUsersTable.resx">
+      <DependentUpon>202112141019309_Delete_Learner_LearnerIdColumnToUsersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112141024445_Add_LearnerColumnToUsersTable.resx">
+      <DependentUpon>202112141024445_Add_LearnerColumnToUsersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112141146388_Add_InstructorColumnToUsersTable.resx">
+      <DependentUpon>202112141146388_Add_InstructorColumnToUsersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112141149385_Add_RegisterDateColumnToUsersTable.resx">
+      <DependentUpon>202112141149385_Add_RegisterDateColumnToUsersTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112141210222_Create_TraviasTable.resx">
+      <DependentUpon>202112141210222_Create_TraviasTable.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

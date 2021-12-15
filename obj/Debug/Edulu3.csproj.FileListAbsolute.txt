@@ -78,3 +78,14 @@ C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.csproj
 C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.csproj.CopyComplete
 C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.dll
 C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.pdb
+C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.Migrations.Create_UsersTable.resources
+C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.csproj.GenerateResource.cache
+C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.Migrations.Create_StoriesTable.resources
+C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.Migrations.Create_LearnersTable.resources
+C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.Migrations.Delete_NameColumnAndLastNameColumnToUsersTable.resources
+C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.Migrations.Create_InstructorsTable.resources
+C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.Migrations.Delete_Learner_LearnerIdColumnToUsersTable.resources
+C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.Migrations.Add_LearnerColumnToUsersTable.resources
+C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.Migrations.Add_InstructorColumnToUsersTable.resources
+C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.Migrations.Add_RegisterDateColumnToUsersTable.resources
+C:\Users\Onur\source\repos\School_Thesis_Projects\Edulu3\obj\Debug\Edulu3.Migrations.Create_TraviasTable.resources
