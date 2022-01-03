@@ -14,9 +14,9 @@
         
         public override void Down()
         {
-            DropForeignKey("dbo.Users", "InstructorId", "dbo.Instructors");
-            DropIndex("dbo.Users", new[] { "InstructorId" });
-            DropColumn("dbo.Users", "InstructorId");
+            DropForeignKey("dbo.Users", "Instructor_InstructorId", "dbo.Instructors");
+            DropIndex("dbo.Users", new[] { "Instructor_InstructorId" });
+            DropColumn("dbo.Users", "Instructor_InstructorId");
         }
     }
 }

@@ -10,10 +10,9 @@ namespace Edulu3.Models.Entity
         public int UserId { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
-        public bool Role { get; set; }
+        //public string Rol { get; set; }
         public DateTime RegisterDate { get; set; }
 
-        public Learner Learner { get; set; }
-        public Instructor Instructor { get; set; }
+
     }
 }

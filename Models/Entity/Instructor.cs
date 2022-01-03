@@ -10,5 +10,7 @@ namespace Edulu3.Models.Entity
         public int InstructorId { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
+
+       
     }
 }

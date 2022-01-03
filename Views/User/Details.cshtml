@@ -1,0 +1,46 @@
+﻿@model Edulu3.Models.Entity.User
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="udiv"></div>
+
+<div id="userpanel-container">
+    <h2>Kullanıcı Detay</h2>
+
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.UserName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.UserName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Password)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Password)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.RegisterDate)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.RegisterDate)
+            </dd>
+
+        </dl>
+    </div>
+</div>
+    <p>
+        @Html.ActionLink("Güncelle", "Edit", new { id = Model.UserId }, new { @class = "btn btnGuncel" }) |
+        @Html.ActionLink("Geri Dön", "Index", null, new { @class = "btn" })
+    </p>

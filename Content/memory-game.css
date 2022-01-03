@@ -13,10 +13,11 @@
         min-width: 100%;
     }
 #game-container {
-    width: 540px;
+    /*width: 540px;*/
     height: 540px;
     position: relative;
-    padding:20px;
+    padding: 20px;
+    background-color: rgb(184, 231, 223);
 }
 #memory-game {
     width: 500px;

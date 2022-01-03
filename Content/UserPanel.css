@@ -1,0 +1,50 @@
+﻿#udiv {
+    z-index: -1;
+    background-image: url('../Image/vectors.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100px;
+}
+    #udiv img {
+        padding: 0;
+        max-height: 100%;
+        min-width: 100%;
+    }
+#userpanel-container {    
+    height: 540px;
+    position: relative;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.btnKayit {
+    border: 1px solid #dee2e6 !important;
+}
+    .btnKayit:hover {
+        border: 1px solid #e0ffcd !important;
+        background-color: #e0ffcd;
+    }
+.btnGuncel {
+    border: 1px solid #dee2e6 !important;
+}
+    .btnGuncel:hover {
+        border: 1px solid #c7f2e3 !important;
+        background: #c7f2e3;
+    }
+.btnSil {
+    border: 1px solid #dee2e6 !important;
+}
+
+    .btnSil:hover {
+        border: 1px solid #fc7978 !important;
+        background: #fc7978;
+    }
+.btnDetay {
+    border: 1px solid #dee2e6 !important;
+}
+
+    .btnDetay:hover {
+        border: 1px solid #c7f2e3 !important;
+        background: #c7f2e3;
+    }

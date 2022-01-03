@@ -1,0 +1,31 @@
+﻿#sdiv {
+    z-index: -1;
+    background-image: url('../Image/fairytale.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 500px;
+}
+
+    #sdiv img {
+        padding: 0;
+        max-height: 100%;
+        min-width: 100%;
+    }
+
+#story-container {
+    width: 1200px;
+    background-color: rgb(252, 245, 213);
+    padding: 50px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#scontainer {
+    height: 540px;
+    position: relative;
+    background-color: rgb(252, 245, 213);
+}
+.text{
+    margin-top: 30px;
+    margin-left: -20px;
+}
