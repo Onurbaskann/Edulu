@@ -171,12 +171,15 @@
     <Content Include="Content\memory-game.css" />
     <Content Include="Content\Story.css" />
     <Content Include="Content\UserPanel.css" />
+    <Content Include="Content\Video.css" />
     <Content Include="Image\05-the-best-video-games-of-2019-gq-december-120519.jpg" />
     <Content Include="Image\fairytale.jpg" />
     <Content Include="Image\istavritin_oykusu.jpg" />
     <Content Include="Image\masallarin_algoritmasi.jpg" />
     <Content Include="Content\Slider.css" />
     <Content Include="Global.asax" />
+    <Content Include="Image\memory-game.PNG" />
+    <Content Include="Image\photographic-camera-background-vector-20517428.jpg" />
     <Content Include="Image\tahta_canak.jpg" />
     <Content Include="Image\uc-zipzip-masali.jpg" />
     <Content Include="Image\vectors.jpg" />
@@ -213,6 +216,7 @@
     <Compile Include="Controllers\SecurityController.cs" />
     <Compile Include="Controllers\StoryController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controllers\VideoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -323,6 +327,7 @@
     <Content Include="Views\User\Edit.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
     <Content Include="Views\Story\Index.cshtml" />
+    <Content Include="Views\Video\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

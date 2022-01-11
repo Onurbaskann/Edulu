@@ -18,14 +18,16 @@
     background-color: rgb(252, 245, 213);
     padding: 50px;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 20%;
 }
+
 #scontainer {
-    height: 540px;
+    height: 440px;
     position: relative;
-    background-color: rgb(252, 245, 213);
+    /*background-color: rgb(252, 245, 213);*/
 }
-.text{
+
+.text {
     margin-top: 30px;
     margin-left: -20px;
 }

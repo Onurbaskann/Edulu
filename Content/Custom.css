@@ -35,9 +35,10 @@ body #hdiv {
     width:33%;
 }
 /*Story*/
-#story ul{
+#story ul {
     background: #f4f3f3;
-    height: 250px;
+    height: 350px;
+    margin-top: 100px;
 }
 .story-kisim {
     display: inline-block;
@@ -55,6 +56,25 @@ body #hdiv {
     }
     .story-kisim a:hover {
         opacity:0.3;
+    }
+.game-kisim {
+    display: inline-block;
+    float: left;
+    padding: 20px;
+    width: 25%;
+    height: 100%;
+}
+
+    .game-kisim img {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .game-kisim a:hover {
+        opacity: 0.3;
     }
 .b-example-divider {
     height: 3rem;
